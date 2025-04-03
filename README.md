@@ -18,7 +18,7 @@ Achieved perfect classification with:
 - F1-score: 1.0
 
 ### Animation (GIF)
-![A cool GIF](brownian_anomalies.gif)
+![Anomaly Detection Animation](brownian_anomalies.gif)
 
 Red segments indicate local anomalous behavior (e.g., sudden velocity spikes).
 
