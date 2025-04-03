@@ -2,6 +2,9 @@
 
 This project uses unsupervised machine learning to detect and visualize anomalies in simulated Brownian motion trajectories. Anomalies are introduced as noise bursts in selected particles' paths. The pipeline applies feature engineering, Isolation Forest for anomaly detection, and animated visualization of trajectory data with local anomaly highlights.
 
+# Example of Brownian Motion
+![Anomaly Detection Animation](brownian_motion_sample.png)
+
 ## Project Structure
 - **Data Simulation**: 2D Brownian motion for 1000 particles over 500 time steps
 - **Anomaly Injection**: Spike anomalies in 10% of particles
@@ -12,10 +15,8 @@ This project uses unsupervised machine learning to detect and visualize anomalie
 
 ## Example Output
 ### Evaluation Report
-Achieved perfect classification with:
-- Precision: 1.0
-- Recall: 1.0
-- F1-score: 1.0
+Achieved near perfect classification with:
+![Anomaly Detection Animation](confusion_matrix.png)
 
 ### Animation (GIF)
 ![Anomaly Detection Animation](brownian_anomalies.gif)
@@ -27,7 +28,3 @@ Red segments indicate local anomalous behavior (e.g., sudden velocity spikes).
 - Scikit-Learn (IsolationForest)
 - Matplotlib (animation)
 - Jupyter Notebook
-
-## Files
-- `brownian_anomaly_detection.ipynb`: Full code notebook
-- `brownian_anomalies.gif`: Exported animation
