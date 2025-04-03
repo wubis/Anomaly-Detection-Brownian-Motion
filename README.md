@@ -1,6 +1,6 @@
 # Brownian Motion Anomaly Detection
 
-This project uses unsupervised machine learning to detect and visualize anomalies in simulated Brownian motion trajectories. Anomalies are introduced as noise bursts in selected particles' paths. The pipeline applies feature engineering, Isolation Forest for anomaly detection, and animated visualization of trajectory data with local anomaly highlights.
+This project uses unsupervised machine learning (Isolation Forest) to detect and visualize anomalies in simulated Brownian motion trajectories. Anomalies are introduced as noise bursts in selected particles' paths. The pipeline applies feature engineering, ensemble decision trees for anomaly detection, and animated visualization of trajectory data with local anomaly highlights.
 
 ## Example of Brownian Motion
 ![Anomaly Detection Animation](brownian_motion_sample.png)
